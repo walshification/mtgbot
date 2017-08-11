@@ -1,0 +1,27 @@
+{
+  "name": "mtgslashcommand",
+  "version": "1.0.0",
+  "description": "A Slack slash command that searches for Magic: The Gathering cards by name.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walshification/mtgbot"
+  },
+  "keywords": [
+    "slack",
+    "slash command"
+  ],
+  "author": "Christopher Walsh <walshification@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "8.1.4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "botkit": "^0.5.7"
+  }
+}
